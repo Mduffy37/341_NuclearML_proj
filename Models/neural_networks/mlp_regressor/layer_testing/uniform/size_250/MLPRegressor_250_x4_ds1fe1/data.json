@@ -1,0 +1,60 @@
+{
+    "model_properties": {
+        "model_type": "MLPRegressor",
+        "model_path": "Models/neural_networks/mlp_regressor/layer_testing/uniform/size_250/MLPRegressor_250_x4_ds1fe1/model.pkl",
+        "model_id": "MLPRegressor_250_x4_ds1fe1",
+        "model_hyperparameters": {
+            "activation": "logistic",
+            "alpha": 0.0001,
+            "batch_size": 100,
+            "beta_1": 0.9,
+            "beta_2": 0.999,
+            "early_stopping": true,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                250,
+                250,
+                250,
+                250
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 0.0001,
+            "max_fun": 15000,
+            "max_iter": 50000,
+            "momentum": 0.9,
+            "n_iter_no_change": 50,
+            "nesterovs_momentum": true,
+            "power_t": 0.5,
+            "random_state": null,
+            "shuffle": true,
+            "solver": "adam",
+            "tol": 1e-06,
+            "validation_fraction": 0.1,
+            "verbose": true,
+            "warm_start": false
+        }
+    },
+    "training_properties": {
+        "dataset": "ds1fe1",
+        "training_features": [
+            "Enrichment",
+            "FuelTemperature",
+            "WaterTemperature",
+            "Pitch",
+            "FuelRadius",
+            "vmvf"
+        ],
+        "training_time": 720.712,
+        "loss": 0.00015039613941011015,
+        "iterations": 861,
+        "time_created": "05/12/2023 00:00:00"
+    },
+    "performance_metrics": {
+        "mse": 5.6960213021793364e-05,
+        "rmse": 0.007547199018297673,
+        "mae": 0.005315038198710255,
+        "mae_percentage": 428.21509047248907,
+        "max_error": 4509.4834844911165,
+        "r2": 0.998055064252228
+    }
+}
